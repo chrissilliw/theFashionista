@@ -1,0 +1,19 @@
+.cw-woocommerce-container {
+    display: flex;
+    column-gap: 50px;
+}
+
+.woocommerce-MyAccount-navigation {
+    padding-top: 30px;
+    background-color: #fff;
+}
+
+.woocommerce-MyAccount-navigation ul {
+
+    list-style: none;
+}
+
+.woocommerce-MyAccount-content {
+    padding-top: 30px;
+    background-color: #fff;
+}

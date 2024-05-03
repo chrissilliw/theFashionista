@@ -1,0 +1,110 @@
+@media screen and (max-width: 1090px) {
+    .nav-items {
+      display: none;
+      background-color: lightgreen;
+    }
+
+    .nav-hamburger-icon {
+        display: block;
+        width: 25px;
+        height: 22px;
+        position: relative;
+        transform: rotate(0deg);
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+    .nav-hamburger-icon span {
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background: #000;
+        border-radius: 6px;
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+        transition: .25s ease-in-out;
+      }
+    
+    .nav-hamburger-icon span:nth-child(1) {
+        top: 0px;
+        transform-origin: left center;
+      }
+      
+    .nav-hamburger-icon span:nth-child(2) {
+    top: 9px;
+    transform-origin: left center;
+    }
+    
+    .nav-hamburger-icon span:nth-child(3) {
+    bottom: 0px;
+    transform-origin: left center;
+    }
+    
+    .nav-hamburger-icon.open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: 0px;
+    left: 5px;
+    }
+    
+    .nav-hamburger-icon.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+    }
+    
+    .nav-hamburger-icon.open span:nth-child(3) {
+    transform: rotate(-45deg);
+    bottom: 0px;
+    left: 5px;
+    }
+
+    .nav-items-mobile-container {
+        position: fixed;
+        top: 70px;
+        right: 0;
+        width: 300px;
+        height: 100vh;
+        transform: translateX(300px);
+        transition: 250ms ease-in-out;
+        background-color: #fff;
+        z-index: 100;
+    }
+
+    .nav-items-mobile-container.open {
+        transform: translateX(0);
+    }
+
+    .nav-items-mobile {
+        display: block;
+    }
+
+    .main-menu {
+        gap: 20px;
+    }
+
+    .nav-items-mobile .menu-main-menu-container ul {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        margin-top: 50px;
+        padding-right: 30px;
+    }
+     
+    .nav-items-mobile .menu-main-menu-container ul li a{
+        padding: 20px 10px;
+    }
+
+    #menu-store-menu-1 {
+        flex-direction: column;
+        padding-right: 40px;
+        align-items: end;
+    }
+
+    #menu-store-menu-1 li {
+        padding-bottom: 10px;
+    }
+
+    #menu-store-menu-1::before {
+        display: none;
+    }
+
+  }

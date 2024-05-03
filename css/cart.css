@@ -1,0 +1,21 @@
+.woocommerce #content table.cart img, .woocommerce table.cart img, .woocommerce-page #content table.cart img, .woocommerce-page table.cart img {
+    height: auto; 
+    width: 100px;
+    object-fit: cover;
+}
+
+.cw-cart_totals {
+    width: 100% !important;
+}
+
+.wc-proceed-to-checkout {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cw-cart_totals .checkout-button {
+    width: 250px;
+    text-align: center;
+    line-height: 30px !important;
+    background-color: #1D2327 !important;
+}

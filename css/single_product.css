@@ -1,0 +1,137 @@
+.cw-single-product-container {
+    width: 100%;
+    max-width: none;
+}
+
+.cw-single-product-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ch-gallery_wrapper {
+    width: 50%;
+    display: flex;
+}
+
+.ch-gallery-wrapper-image {
+    width: 100%;
+}
+
+.ch-gallery_wrapper img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.ch-gallery_wrapper .flex-viewport {
+    position: relative;
+    width: 100%;
+}
+
+.ch-gallery_wrapper .flex-control-thumbs {
+    /*display: none;*/
+    padding-left: 0;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.woocommerce-product-gallery__trigger {
+    display: none;
+}
+
+.single-product-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0EADA;
+}
+
+.ch-single-product-summary {
+    margin-top: 150px;
+    position: relative;
+    width: 500px;
+}
+
+.ch-single-product-summary .woocommerce-Price-amount {
+    margin-left: 0;
+    font-size: 1.8rem;
+}
+
+.ch-single-product-summary .single_add_to_cart_button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #435334;
+    color: #F0EADA;
+    line-height: 55px;
+    border: 1px solid #435334;
+    border-radius: 3px;
+}
+
+/* .priceSizeCart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.priceSizeCart .price .woocommerce-Price-amount{
+    margin-left: 0;
+}
+
+.priceSizeCart .variations .label {
+    font-size: 16px;
+}
+
+.priceSizeCart .variations .value select{
+    padding: 13px 50px 12px 15px;
+    line-height: 30px;
+    border: 1px solid rgba(30,33,41,.2);
+    appearance: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.priceSizeCart .variations .value selection::before {
+    content: "";
+    width: 1px;
+    height: 33px;
+    top: 5px;
+    right: 50px;
+    background-color: #cacccf;
+    display: block;
+    position: absolute;
+}
+
+.priceSizeCart .variations .value select::after {
+    content: "\f078";
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    border: 0;
+    width: 10px;
+    height: 10px;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 16px;
+} */
+
+.single_variation_wrap .woocommerce-variation-add-to-cart {
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+
+
+/*******************************************************************/
+/** TABS
+/*******************************************************************/

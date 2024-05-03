@@ -1,0 +1,20 @@
+@media screen and (max-width: 992px) {
+
+    .news-card {
+        flex: 0 1 40%;
+    }
+
+    .card-title-link {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .news-card {
+        flex: 0 1 80%;
+    }
+
+    .card-title-link {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,54 @@
+.section-page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.archive-store-container {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    padding-left: 0;
+    padding-right: 0;
+    cursor: pointer;
+}
+
+.archive-section {
+    flex: 0 0 50%;
+    width: 50%;
+}
+
+.archive-section-image {
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.archive-section-image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.archive-section-content {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.archive-section-content h3 {
+    font-size: 2rem;
+}
+
+.archive-section-content p {
+    font-size: 1.1rem;
+}
+
+.archive-store-link {
+    color: #000;
+}
+
+.archive-store-link:hover {
+    text-decoration: none;
+    color: #000;
+}

@@ -1,0 +1,305 @@
+.block-section-container {
+    position: relative;
+    margin-top: 50px;
+    max-width: 1280px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .block-section-container {
+        display: table;
+    }
+}
+
+/********************************/
+/** FULL BLOCK ******************/
+/********************************/
+
+.card-width-full {
+    width: 100%;
+}
+
+.block-section-container img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.block-content_inner {
+    position: absolute;
+    display: flex;
+    width: 70%;
+    height: 70%;
+}
+
+.block-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-content.has-vertical-layout-top {
+    justify-content: flex-start;
+}
+
+.block-content.has-vertical-layout-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.block-content.has-vertical-layout-bottom {
+    justify-content: flex-end;
+}
+
+.block-content_inner.has-horizontal-layout-left {
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.block-content_inner.has-horizontal-layout-center {
+    justify-content: center;
+    text-align: center;
+}
+
+.block-content_inner.has-horizontal-layout-right {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.block-content.has-horizontal-layout-left {
+    align-items: flex-start;
+}
+
+.block-content.has-horizontal-layout-center {
+    align-items: center;
+}
+
+.block-content.has-horizontal-layout-right {
+    align-items: flex-end;
+}
+
+.block-content-title {
+    color: var(--text-color);
+}
+
+.block-content-title.has-font-size-large {
+    font-size: 4rem;
+}
+
+.block-content-title.has-font-size-medium {
+    font-size: 3rem;
+}
+
+.block-content-title.has-font-size-small {
+    font-size: 2rem;
+}
+
+.block-content-title.has-title-letter-case-uppercase {
+    text-transform: uppercase;
+}
+
+.block-content-subtitle {
+    color: var(--text-color);
+}
+
+.block-content-subtitle.has-title-letter-case-uppercase {
+    text-transform: uppercase;
+}
+
+.block-content-subtitle.has-font-size-large {
+    font-size: 1.5rem;
+}
+
+.block-content-subtitle.has-font-size-small {
+    font-size: 1rem;
+}
+
+.block-content-button {
+    width: fit-content;
+    margin-top: 10px;
+    padding: 10px 35px; 
+    border: 2px solid var(--background-color);
+    cursor: pointer;
+    transition: 250ms ease-in;
+}
+
+.block-content-button:hover {
+    background-color: #FAF1E4;
+    border: 1px solid #FAF1E4;
+    color: #000;
+    text-decoration: none;
+}
+
+.block-content-button.fill{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.button-label {
+    color: var(--text-color);
+}
+
+/********************************/
+/** HALF BLOCK ******************/
+/********************************/
+
+.card-width-half,
+.card-width-larger,
+.card-width-smaller {
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card-left_side,
+.card-right_side  {
+    position: relative;
+    width: 100%;
+    height: inherit;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    background-color: var(--background-color);
+}
+
+.half-card-content_inner {
+    position: absolute;
+    display: flex;
+    width: 80%;
+    height: 80%;
+}
+
+.half-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.half-card-content.has-vertical-layout-top {
+    justify-content: flex-start;
+}
+
+.half-card-content.has-vertical-layout-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.half-card-content.has-vertical-layout-bottom {
+    justify-content: flex-end;
+}
+
+.half-card-content_inner.has-horizontal-layout-left {
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.half-card-content_inner.has-horizontal-layout-center {
+    justify-content: center;
+    text-align: center;
+}
+
+.half-card-content_inner.has-horizontal-layout-right {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.half-card-content.has-horizontal-layout-left {
+    align-items: flex-start;
+}
+
+.half-card-content.has-horizontal-layout-center {
+    align-items: center;
+}
+
+.half-card-content.has-horizontal-layout-right {
+    align-items: flex-end;
+}
+
+.half-card-content-title {
+    color: var(--text-color);
+}
+
+.half-card-content-title.has-font-size-large {
+    font-size: 4rem;
+}
+
+.half-card-content-title.has-font-size-medium {
+    font-size: 3rem;
+}
+
+.half-card-content-title.has-font-size-small {
+    font-size: 2rem;
+}
+
+.half-card-content-title.has-title-letter-case-uppercase {
+    text-transform: uppercase;
+}
+
+.half-card-content-title.has-title-letter-case-lowercase {
+    text-transform: none;
+}
+
+.half-card-content-subtitle {
+    color: var(--text-color);
+}
+
+.half-card-content-subtitle.has-title-letter-case-uppercase {
+    text-transform: uppercase;
+}
+
+.half-card-content-subtitle.has-title-letter-case-lowercase {
+    text-transform: none;
+}
+
+.half-card-content-subtitle.has-font-size-large {
+    font-size: 1.5rem;
+}
+
+.half-card-content-subtitle.has-font-size-small {
+    font-size: 1rem;
+}
+
+.half-card-content-button {
+    width: fit-content;
+    margin-top: 10px;
+    padding: 10px 35px; 
+    border: 2px solid var(--button-color);
+    cursor: pointer;
+    transition: 250ms ease-in;
+}
+
+.half-card-content-button:hover {
+    text-decoration: none;
+    background-color: #FAF1E4; 
+    border: 2px solid #FAF1E4;
+}
+
+.card-button-label {
+    color: var(--text-color);
+    transition: 300ms ease-in;
+}
+
+.half-card-content-button:hover > .card-button-label{
+    color: #000;
+}
+
+.half-card-content-button.fill{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+@media screen and (max-width: 800px) {
+    
+    .card-right_side  {
+        margin-top: 50px;
+    }
+}
+
+/********************************/
+/** LARGER BLOCK ****************/
+/********************************/
+
